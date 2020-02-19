@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="layout.css">
+    </head>
+    <body>
+        <div id="bannerInfo" onload="displayBanner()">
+                <button id="close" onclick="closeBanner()">X</button>
+        </div>
+        <div class="login">
+            <img src="https://app.revature.com/core/resources/artifactsdownload/files/internship/activity/33353/0">
+            <a href="Register.html">Sign in / Register</a>
+        </div>
+        <div class="chickenRecipePic">
+            <img class="chimg" src="chicken.jpg" alt="Chicken recipe">
+            <div class="middle"><h3>Try a new meal today!</h3></div>
+        </div>
+        <h2 class="start">Find a driver near you!</h2>
+        <p class="start">Type in your zipcode below and click Go! to find a driver near you</p>
+        <div class="zipGo">    
+            <input type="text" id="zip" maxlength="5">
+            <button id="go">Go!</button>
+        </div>
+        <h4 id="displayServiceArea"></h4>
+        <footer>
+            <nav>
+                <a href="#banner">Home</a>
+                <a href="Register.html">Register</a>
+                <a href="Request.html">Request</a>
+                <a href="about.html">How it all works</a>
+            </nav>
+            <nav>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+            </nav>
+            <div class="quote">
+                <h4>Simplicity is the ultimate sophistication.</h4>
+            </div>
+        </footer>
+    </body>
+    <script src="functions.js"></script>
+</html>

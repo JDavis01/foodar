@@ -1,0 +1,181 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    background-color: lightsteelblue;
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    position: relative;
+    min-height: 100vh;
+    padding-bottom: 10%;
+    flex-direction: column;
+  }
+
+.container {
+    display: flex;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+footer {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgray;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    min-width: 10vw;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    margin: 5px;
+}
+
+a:hover {
+    color: red;
+}
+
+.login {
+    display: flex;
+    min-width: 90vw;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15%;
+}
+
+#bannerInfo {
+    display: flex;
+    visibility: hidden;
+    justify-content: flex-end;
+    position: fixed;
+    width:50vw;
+    height: 25vh;
+}
+
+#close {
+    position: fixed;
+    right: 25.2%;
+    top: 10px;
+}
+
+#bannerInfo a {
+    flex-basis: 100%;
+}
+
+#bannerImage {
+    width: 100%;
+    height: 100%;
+}
+
+.chickenRecipePic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    min-width: 60vw;
+    min-height: 40vh;
+}
+
+.chimg {
+    flex-basis: 100%;   
+}
+
+.middle {
+    position: absolute;
+}
+
+.middle h3 {
+    font-style: oblique;
+    font-weight: bold;
+    text-shadow: -1px -1px 0px whitesmoke;
+}
+
+.start {
+    align-self: flex-start;
+    margin-left: 20%;
+}
+
+.zipGo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    min-width: 60vw;
+    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
+    justify-content: flex-start;
+    align-items: baseline;
+}
+
+#zip {
+    margin-right: 10px;
+}
+
+.copyRight {
+    display: flex;
+    flex-direction: column;
+}
+
+.request {
+    align-self: flex-start;
+    margin: 2%;
+}
+
+.request input {
+    margin-left: 15%;
+}
+
+#formContainer {
+    display: flex;
+    width: 75%;
+    justify-content: space-evenly;
+    align-self: flex-start;
+}
+
+.radioBox {
+    display: flex;
+    flex-direction: column;
+    border: solid black;
+    text-align: center;
+    min-width: 280px;
+    min-height: 120px;
+    padding: 5px, 25px, 25px;
+}
+
+.radioBox input {
+    align-self: center;
+}
+
+#tipPara {
+    align-self: flex-start;
+    margin: 2%;
+}
+
+#info {
+    margin: 4rem;
+}
